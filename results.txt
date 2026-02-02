@@ -1,0 +1,91 @@
+--- DATA UNDERSTANDING ---
+Shape: (200, 5)
+Columns: ['CustomerID', 'Gender', 'Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+
+Data Types:
+CustomerID                int64
+Gender                      str
+Age                       int64
+Annual Income (k$)        int64
+Spending Score (1-100)    int64
+dtype: object
+
+Missing Values:
+CustomerID                0
+Gender                    0
+Age                       0
+Annual Income (k$)        0
+Spending Score (1-100)    0
+dtype: int64
+
+--- MEASURES OF CENTRAL TENDENCY ---
+
+Attribute: Age
+Mean: 38.85
+Median: 36.00
+Mode: 32
+
+Attribute: Annual Income (k$)
+Mean: 60.56
+Median: 61.50
+Mode: 54
+
+Attribute: Spending Score (1-100)
+Mean: 50.20
+Median: 50.00
+Mode: 42
+
+--- MEASURES OF DISPERSION ---
+
+Attribute: Age
+Range: 52
+Variance: 195.13
+Standard Deviation: 13.97
+IQR: 20.25
+
+Attribute: Annual Income (k$)
+Range: 122
+Variance: 689.84
+Standard Deviation: 26.26
+IQR: 36.50
+
+Attribute: Spending Score (1-100)
+Range: 98
+Variance: 666.85
+Standard Deviation: 25.82
+IQR: 38.25
+
+--- DISTRIBUTION ANALYSIS ---
+
+Attribute: Age
+Skewness: 0.48
+Distribution: Approximately Symmetric
+No significant outliers detected via IQR method.
+
+Attribute: Annual Income (k$)
+Skewness: 0.32
+Distribution: Approximately Symmetric
+Potential Outliers count: 2
+Outlier values: [137 137]
+
+Attribute: Spending Score (1-100)
+Skewness: -0.05
+Distribution: Approximately Symmetric
+No significant outliers detected via IQR method.
+
+--- CATEGORICAL DATA ANALYSIS ---
+
+Gender Distribution:
+Gender
+Female    112
+Male       88
+Name: count, dtype: int64
+
+Gender Percentage:
+Gender
+Female    56.0
+Male      44.0
+Name: proportion, dtype: float64
+
+--- VISUALIZATIONS GENERATED ---
+Saved: histograms.png, boxplots.png, gender_bar.png, scatter_income_score.png

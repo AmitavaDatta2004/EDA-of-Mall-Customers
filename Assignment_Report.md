@@ -163,5 +163,5 @@ Based on the analysis, here are the key takeaways for the marketing strategy:
 5.  **Luxury Segment**: The high-income outliers and the high-income/high-spend cluster represent a luxury market opportunity. Exclusive offers could be targeted here.
 
 ---
-**Prepared by**: [Your Name/ID]
+**Prepared by**: [Amitava Datta/13030823014]
 **Tool Used**: Python (Pandas, Seaborn, Matplotlib)
